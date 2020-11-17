@@ -123,6 +123,13 @@ a::selection {
   @media only screen and (max-width: 600px) {
     .hero-text {
       line-height: 1;
+      font-size: 20px;
+    }
+    .hero-text{
+      
+    }
+    nav ul{
+      font-size: 18px;
     }
     .royxatdan {
       padding: 35px 50px;
@@ -137,6 +144,5 @@ a::selection {
     .royxatdan {
       padding: 35px 50px;
       border-radius: 60px;
-      
     }
   }
