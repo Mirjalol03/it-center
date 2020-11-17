@@ -128,6 +128,9 @@ a::selection {
     nav ul{
       font-size: 18px;
     }
+    #icon-fixed {
+      visibility:hidden;
+    }
     .royxatdan {
       padding: 35px 50px;
       border-radius: 60px;
@@ -141,6 +144,9 @@ a::selection {
     .royxatdan {
       padding: 35px 50px;
       border-radius: 60px;
+    }
+    #icon-fixed {
+      visibility:hidden;
     }
   }
   #icon-fixed{
