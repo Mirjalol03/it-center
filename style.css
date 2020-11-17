@@ -41,13 +41,13 @@ a::selection {
       align-items: center;
       padding: 1em 0;
       margin-left: 5%;
-      font-size: 20px;
+      font-size: 30px;
     }
   
     nav li a {
       text-decoration: none;
       color: white;
-      padding-right: 3em;
+      padding-right: 2em;
       position: relative;
       transition: all ease-in-out 250ms;
     }
@@ -86,8 +86,11 @@ a::selection {
      float: right;
      font-size:20px;
      background-color: #7dba28;
-     padding: 20px;
-     border-radius: 30px;
+     /* padding: 20px;
+     border-radius: 30px; */
+     padding: 30px 50px;
+     border-radius: 60px;
+
      margin-right: 15%;
      margin-top: 60px;
      margin-left: 20px;
@@ -121,10 +124,19 @@ a::selection {
     .hero-text {
       line-height: 1;
     }
-    
+    .royxatdan {
+      padding: 35px 50px;
+      border-radius: 60px;
+      margin-right: 20%;
+    }
   }
   @media only screen and (max-width: 850px) {
     .hero-text p {
       line-height: 1.5;
+    }
+    .royxatdan {
+      padding: 35px 50px;
+      border-radius: 60px;
+      
     }
   }
