@@ -86,10 +86,10 @@ a::selection {
      float: right;
      font-size:20px;
      background-color: #7dba28;
-     padding: 15px;
-     border-radius: 25px;
+     padding: 20px;
+     border-radius: 30px;
      margin-right: 15%;
-     margin-top: 30px;
+     margin-top: 90px;
      animation: royxat 3s linear infinite;
    }
    @keyframes royxat {
@@ -108,7 +108,7 @@ a::selection {
    }
    .hero-text {
     text-align: center;
-    padding-top: 120px;
+    padding-top: 200px;
     font-family: inherit;
     margin-bottom: 105px;
     font-size: 30px;
