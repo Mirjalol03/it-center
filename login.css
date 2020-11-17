@@ -13,7 +13,6 @@ video{
 	background-color: rgba(0, 0, 0, 0 1);
 	box-shadow: 0 0 17px #fff;
 }
-
 .header {
 	text-align: center;
  	padding-top: 75px;
@@ -25,7 +24,9 @@ video{
 	font-size: 45px;
 	margin-bottom: 80px;
 }
-
+.header h1:hover {
+    color: #8fd32f;
+}
 .main {
 	text-align: center;
 }
@@ -40,7 +41,8 @@ video{
 	padding-left: 38px;
 	box-sizing: border-box;
 	font-size: 15px;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    color: #8fd32f;
 }
 
 .main button {
@@ -55,7 +57,8 @@ video{
 .main button:hover {
 	box-shadow: 2px 2px 5px #fff;
 	border-radius: 25px;
-	background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.1);
+    color: #8fd32f;
 	}
 .main input:hover {
 	box-shadow: 2px 2px 5px #fff;
@@ -75,5 +78,5 @@ video{
 	top: 2px;
 }
 .col{
-	color: #fff;
+    color: #fff;
 }

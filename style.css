@@ -4,7 +4,7 @@ a::selection {
     background: transparent;
 } */
 ::selection {
-  color: #8fd32f;;
+  color: #8fd32f;
   background: transparent;
 }
 
