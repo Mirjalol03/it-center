@@ -1,8 +1,13 @@
-
-#nav a::selection {
-    color: rgb(23, 228, 40);
+/* 
+a::selection {
+    color: #8fd32f;;
     background: transparent;
+} */
+::selection {
+  color: #8fd32f;;
+  background: transparent;
 }
+
 #background {
     background-image: url(https://edu.itcenter.uz/img/back1.jpg);
     background-repeat: no-repeat;
@@ -14,7 +19,7 @@
 
 
 :root {
-    --pink: #ff4081;
+    --pink: #94db31;
   }
   
   body {
@@ -35,7 +40,7 @@
       justify-content: flex-start;
       align-items: center;
       padding: 1em 0;
-      margin-left: 20px;
+      margin-left: 5%;
       font-size: 20px;
     }
   
@@ -71,6 +76,41 @@
       margin-left: 3em;
     } */
     #background img {
-        margin-left: 40%;
-}
-  
+        margin-left: 15%;
+        margin-top: 20px;
+   }
+
+   .royxatdan{
+     text-decoration: none;
+     color: #fff;
+     float: right;
+     font-size:20px;
+     background-color: #7dba28;
+     padding: 15px;
+     border-radius: 25px;
+     margin-right: 15%;
+     margin-top: 30px;
+     animation: royxat 3s linear infinite;
+   }
+   @keyframes royxat {
+     0% {
+       background-color: #94db31;
+     }
+     50% {
+       background-color: rgb(255, 217, 0);
+     }
+     75% {
+       background-color: rgb(229, 255, 0);
+     }
+     100% {
+       background-color: #94db31;
+     }
+   }
+   .hero-text {
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Comfortaa Bold';
+    margin-bottom: 105px;
+    font-size: 30px;
+    color: #fff;
+    }
