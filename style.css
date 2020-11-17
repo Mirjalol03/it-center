@@ -143,6 +143,22 @@ a::selection {
       border-radius: 60px;
     }
   }
-  a i {
-    font-size: 20px;
+  #icon-fixed{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    text-decoration: none;
+    list-style: none;
+    border: solid 3px #8fd32f;
+    background-color: #8fd32f;
   }
+  #icon-fixed #telegram a {
+    color: #0088cc;
+  }
+  #icon-fixed #github a {
+    color: #24292e;
+  }
+  #icon-fixed #instagram a {
+    color: #FD1D1D;
+  }
+
