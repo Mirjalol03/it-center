@@ -134,7 +134,7 @@ a::selection {
     z-index: 2;
     }
     #icon-fixed span {
-      margingit: 5px;
+      margin: 5px;
     }
     @keyframes loading1 {
       0% {
