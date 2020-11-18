@@ -14,6 +14,7 @@ a::selection {
     height: 948px;
     background-size: cover;
     background-position: top center;
+    cursor:url('./img/cursor1.png'),pointer;
 }
 
 
@@ -26,8 +27,8 @@ a::selection {
     font-family: Lato, sans-serif;
     margin: 0;
     background-color: #00ffff;
+    
   }
-  
   #nav {
     width: 100vw;
     background-color: #19202496;
@@ -95,6 +96,7 @@ a::selection {
      margin-top: 60px;
      margin-left: 20px;
      animation: royxat 3s linear infinite;
+     
    }
    @keyframes royxat {
      0% {
