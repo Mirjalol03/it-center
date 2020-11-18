@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign up</title>
+    <script src="https://kit.fontawesome.com/3aaee61bf3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <link href="https://itcenter.uz/ico.ico" rel="shortcut icon">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="max-width">
+            <div class="logo">
+                <i id="write-icon" class="far fa-edit fa-2x"></i>
+                <h3 id="write-r-h1">SIGN UP</h3>
+            </div>
+            <p id="sahifa">WITH SOCIAL MEDIA</p>
+            <ul>
+                <li id="twi"><a href="#"><i class="fab fa-twitter fa-3x"></i></a></li>
+                <li id="face"><a href="#"><i class="fab fa-facebook-f fa-3x"></i></a></li>
+                <li id="goog"><a href="#"><i class="fab fa-google-plus-g fa-3x"></i></a></li>
+            </ul>
+            <p id="or">Or</p>
+            <form>
+                <div id="text-input">
+                    <input type="text" placeholder="Your Name" name="1" required>
+                    <input type="text" placeholder="User Name" name="1" id="" required>
+                    <input type="email" placeholder="Email Address" name="1" id="" required>
+                </div>
+                <label id="rozilik" for="rozilik">
+                   <i>I agree to all terms :</i>
+                    <input type="checkbox" name="rozilik" id="rozilik" required>
+                </label>
+                <input id="sign-up-btn" type="submit" value="SIGN UP">
+            </form>
+        </div>
+    </div>
 </body>
 </html>

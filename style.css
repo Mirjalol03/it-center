@@ -14,7 +14,6 @@ a::selection {
     height: 948px;
     background-size: cover;
     background-position: top center;
-    cursor:url('./img/cursor1.png'),pointer;
 }
 
 
