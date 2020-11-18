@@ -127,10 +127,31 @@ a::selection {
     top: 50%;
     text-decoration: none;
     list-style: none;
-    border: solid 3px #8fd32f;
-    background-color: #8fd32f;
     border-radius: 15px;
     margin-left: 7px;
+    border: solid 5px #8fd32f;
+    animation: loading1 1s linear infinite;
+    }
+    #icon-fixed span {
+      margingit: 5px;
+    }
+    @keyframes loading1 {
+      0% {
+        background-color: #94db31;
+        border: #94db31;
+      }
+      50% {
+        background-color: rgb(255, 217, 0);
+        border: rgb(255, 217, 0);
+      }
+      75% {
+        background-color: rgb(229, 255, 0);
+        border: gb(229, 255, 0);
+      }
+      100% {
+        background-color: #94db31;
+        border: #94db31;
+      }
     }
     #icon-fixed #telegram a {
       color: #0088cc;
@@ -158,6 +179,7 @@ a::selection {
     #icon-fixed {
       /* visibility:hidden; */
       float: right;
+      top: 70%;
     }
     .royxatdan {
       padding: 35px 50px;
