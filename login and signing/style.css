@@ -90,4 +90,5 @@ form #text-input input::placeholder {
     text-decoration: none;
     padding: 8px;
     border-radius: 5px;
+    color: white;
 }
