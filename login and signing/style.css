@@ -23,7 +23,7 @@ body {
     font-weight: 100;
 }
 .logo {
-    margin-left: 29%;
+    margin-left: 100px;
     margin-bottom: -17px;
     padding-top: 35px;
 }
@@ -41,7 +41,7 @@ ul li {
     margin: 5px 10px;
 }
 ul {
-    margin-left: 5%;
+    margin-left: 25px;
 }
 ul #twi a{
     color: #00acee;
