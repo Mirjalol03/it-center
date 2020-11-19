@@ -1,0 +1,28 @@
+body {
+    background-color: #94db31;
+}
+.address-local {
+    width: 700px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 20px;
+    background: url(https://www.insidehighered.com/sites/default/server_files/styles/large/public/media/team-leader-or-businessman-giving-a-presentation-vector-id1212688339.jpg?itok=0p8c4zOl);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg {
+    background-color: rgba(0, 0, 0, 0.815);
+    height: 500px;
+    width: 700px;
+    position: fixed;
+}
+#mavzu {
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-bottom: solid 1px #fff;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
