@@ -5,8 +5,8 @@ body {
 .container {
     width: 400px;
     margin: auto;
-    height: 600px;
-    margin-top: 40px;
+    height: 630px;
+    margin-top: 10px;
     background-color: #333;
     box-shadow: 0 0 20px 0 #000;
 }
@@ -23,15 +23,16 @@ body {
     font-weight: 100;
 }
 .logo {
-    margin-left: 27%;
+    margin-left: 29%;
     margin-bottom: -17px;
-    padding-top: 15px;
+    padding-top: 35px;
 }
 #sahifa {
     text-align: center;
     color: rgba(255, 255, 255, 0.658);
     border-top: solid 1px rgba(255, 255, 255, 0.658);
     padding-top: 17px;
+    font-size: 13px;
 }
 ul li {
     text-decoration: none;
@@ -40,7 +41,7 @@ ul li {
     margin: 5px 10px;
 }
 ul {
-    margin-left: -7px;
+    margin-left: 5%;
 }
 ul #twi a{
     color: #00acee;
@@ -54,11 +55,14 @@ ul #goog a {
 #or {
     text-align: center;
     color: rgba(255, 255, 255, 0.658);
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 form #text-input input {
     width: 100%;
     padding: 10px 0px;
-    margin: 5px 0;
+    margin: 6px 0;
     background-color: rgba(255, 255, 255, 0.075);
     border: solid 1px rgba(255, 255, 255, 0.080);
     color: #fff;
@@ -67,15 +71,14 @@ form #text-input input::placeholder {
     padding-left: 6%;
 }
 #rozilik {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
     color: rgba(255, 255, 255, 0.658);
 }
 #sign-up-btn {
     display: block;
     width: 60%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 20px 30px;
     background-color: #00eeba;
     color: #fff;
