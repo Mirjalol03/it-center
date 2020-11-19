@@ -10,8 +10,7 @@ body {
     background: url(https://www.insidehighered.com/sites/default/server_files/styles/large/public/media/team-leader-or-businessman-giving-a-presentation-vector-id1212688339.jpg?itok=0p8c4zOl);
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
-}
+} 
 #bg {
     background-color: rgba(0, 0, 0, 0.815);
     height: 530px;
@@ -64,9 +63,10 @@ body {
     .address-local, #bg {
         width: 100%;
         height: 680px;
+        margin-top: 0;
     }
     #fas-map {
         margin: auto;
-        width: 5%;
+        width: -10px;
     }
 }
