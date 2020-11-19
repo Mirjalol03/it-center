@@ -3,26 +3,70 @@ body {
 }
 .address-local {
     width: 700px;
-    height: 500px;
+    height: 530px;
     border: 1px solid #000;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     background: url(https://www.insidehighered.com/sites/default/server_files/styles/large/public/media/team-leader-or-businessman-giving-a-presentation-vector-id1212688339.jpg?itok=0p8c4zOl);
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
 }
 #bg {
     background-color: rgba(0, 0, 0, 0.815);
-    height: 500px;
+    height: 530px;
     width: 700px;
     position: fixed;
 }
 #mavzu {
     text-align: center;
     color: #fff;
-    width: 80%;
     margin: auto;
     border-bottom: solid 1px #fff;
     margin-top: 10px;
     padding-bottom: 10px;
+}
+#fas-map {
+    color: rgba(221, 135, 64, 0.774);
+}
+.max-width {
+    width: 80%;
+    margin: auto;
+}
+.logo {
+    margin-top: 20px;
+}
+.logo #fas-map {
+    margin-left: 40%;
+    border-bottom: white 2px solid;
+    padding: 0 40px 19px;
+}
+#local {
+    color: #fff;
+    font-size: 29px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.back a {
+    background-color: #94db31;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+.back {
+    margin-top: 90px;
+}
+
+@media only screen and (max-width: 700px) {
+    .address-local, #bg {
+        width: 100%;
+        height: 680px;
+    }
+    #fas-map {
+        margin: auto;
+        width: 5%;
+    }
 }
